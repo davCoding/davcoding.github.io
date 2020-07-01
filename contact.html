@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="height=device-height, width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+  <meta name="description" content="Mi Sitio Web." />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" media="all" href="css/animate.css">
+  <link rel="stylesheet" href="css/icon.css">
+  <link rel="stylesheet" href="css/dq-grid.css" />
+  <link rel="stylesheet" media="all" href="css/style.css">
+  <link rel="stylesheet" media="all" href="css/style-screen.css">
+  <title>Davis Quintero</title>
+</head>
+
+<body class="s-column">
+  <header class="container-header  dq-container  s-column">
+    <div class="box-header  dq-box  dq-flex  s-jc-evenly  s-ai-center">
+      <figure class="box-logo">
+        <img src="img/logo/dqlogo.svg" alt="" class="item-logo">
+      </figure>
+      <nav class="box-social  dq-flex  s-jc-evenly  s-ai-center  s-6">
+        <a href="">
+          <img src="img/icon/github.svg" alt="" class="item-social">
+        </a>
+        <a href="">
+          <img src="img/icon/instagram.svg" alt="" class="item-social">
+        </a>
+        <a href="https://t.me/davisquintero" target="_blank">
+          <img src="img/icon/telegram.svg" alt="" class="item-social">
+        </a>
+      </nav>
+    </div>
+    <nav class="box-menu  dq-box  dq-flex  s-jc-evenly">
+      <a href="index.html" class="item-menu">Inicio</a>
+      <a href="proyect.html" class="item-menu">Proyectos</a>
+      <a href="blog.html" class="item-menu">Blog</a>
+      <!--<a href="contact.html" class="item-menu  item-menu-active">Escribeme</a>-->
+    </nav>
+  </header>
+  <main>
+    <section class="container-contact  dq-container  s-jc-around">
+      <form name="contact_frm" action="enviar.php" method="post" enctype="application/x-www-form-urlencoded"
+        onsubmit="return validar();" class="box-form  dq-box  dq-flex  s-column">
+        <label class="item-label">Nombre</label>
+        <input class="item-input" id="name" type="text" name="name" />
+        <p id="error-name" class="item-p-error"> </p>
+        <label class="item-label">Correo</label>
+        <input class="item-input" id="mail" type="text" name="mail" />
+        <p id="error-mail" class="item-p-error"> </p>
+        <label class="item-label">Mensaje</label>
+        <!--<input class="item-input" id="message" type="text" name="message" />-->
+        <textarea id="message" class="item-input" name="message"></textarea>
+        <p id="error-message" class="item-p-error"> </p>
+        <input class="item-button  s-as-end  s-3" type="submit" name="enviar" value="Enviar" />
+      </form>
+    </section>
+    <section class="container-card  dq-container  s-jc-evenly  s-ai-evenly">
+      <article class="box-card  dq-box  dq-flex  s-jc-evenly  s-ai-center  s-9  m-6  l-5">
+        <figure class="item-icon-card  dq-flex  s-jc-center  s-3">
+          <img src="img/icon/telegram.svg" alt="">
+        </figure>
+        <div class="item-p-card  item-p-detail  s-8">
+          <p>
+            "300-4586300."
+          </p>
+          <hr />
+          <b>
+            <i>
+              <p>
+                Llamadas - Mensajes por Telegram.
+              </p>
+            </i>
+          </b>
+        </div>
+      </article>
+      <article class="box-card  dq-box  dq-flex  s-jc-evenly  s-ai-center  s-9  m-6  l-5">
+        <figure class="item-icon-card  dq-flex  s-jc-center  s-3">
+          <img src="img/icon/mail.svg" alt="">
+        </figure>
+        <div class="item-p-card  item-p-detail  s-8">
+          <p>
+            "davcoding@gmail.com"
+          </p>
+          <hr />
+          <b>
+            <i>
+              <p>
+                Un mensaje - Con gusto respondere.
+              </p>
+            </i>
+          </b>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer class="container-footer  dq-container  s-jc-center  s-ai-center">
+    <p>
+      &copy; 2020 DavCoding
+    </p>
+  </footer>
+</body>
+
+</html>

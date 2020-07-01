@@ -1,0 +1,140 @@
+/*Media Query paras los Estilos Responsive Design de Movil a Desktop*/
+@media screen and (min-width: 20em) /* size: s */ {
+  /* ================= */
+  /* Style - Generales */
+  /* ================ */
+  /* ----- Style - Header ----- */
+  /*.container-header {
+    background-color: yellow;
+  }*/
+}
+
+@media screen and (min-width: 30em) /* size: x */ {
+  /* ================= */
+  /* Style - Generales */
+  /* ================ */
+  /* ----- Style - Header ----- */
+  /*.container-header {
+    background-color: blue;
+  }*/
+}
+
+@media screen and (min-width: 37.5em) /* size: xs */ {
+  /* ================= */
+  /* Style - Generales */
+  /* ================ */
+  /* ----- Style - Header ----- */
+  /*.container-header {
+    background-color: red;
+  }*/
+}
+
+@media screen and (min-width: 48em) /* size: m */ {
+  /* ================= */
+  /* Style - Generales */
+  /* ================ */
+  /* ----- Style - Header ----- */
+  /*.container-header {
+    background-color: lime;
+  }*/
+
+  .box-logo > img {
+    width: 16rem;
+  }
+
+  .box-social > a > img {
+    width: 1.7rem;
+  }
+
+  .item-menu {
+    font-size: 1.1rem;
+  }
+
+  /* =========== */
+  /* Style - Index */
+  /* ============ */
+  /* ----- Style - ContainerHello ----- */
+  .box-photo > img {
+    width: 11rem;
+  }
+
+  .item-h2 {
+    font-size: 1.6rem;
+  }
+
+  /* ----- Style - ContainerProfessional ----- */
+  .box-icon > img {
+    width: 4.5rem;
+  }
+
+  .item-p-me > img {
+    width: 1.6rem;
+  }
+
+  .item-p-me > p {
+    font-size: 1.3rem;
+  }
+
+  /* ----- Style - ContainerService ----- */
+  .item-service-link {
+    font-size: 1.2rem;
+  }
+
+  .item-service-list {
+    font-size: 1.3rem;
+  }
+
+  .item-service-p > p {
+    font-size: 1.3rem;
+  }
+
+  .item-service-list > li > img {
+    width: 1.6rem;
+  }
+
+  /* ========
+  Style - Proyect 
+======== */
+  /* ----- Style - ContainerComments ----- */
+  .box-card {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 64em) /* l */ {
+  /* ================= */
+  /* Style - Generales */
+  /* ================ */
+  /* ----- Style - Header ----- */
+  /*.container-header {
+    background-color: orange;
+  }*/
+
+  /* ========
+  Style - Proyect 
+======== */
+  /* ----- Style - ContainerProyect ----- */
+  .box-proyect {
+    height: 26rem;
+  }
+}
+
+@media screen and (min-width: 75em) /* xl*/ {
+  /* ================= */
+  /* Style - Generales */
+  /* ================ */
+  /* ----- Style - Header ----- */
+  /*.container-header {
+    background-color: green;
+  }*/
+}
+
+@media screen and (min-width: 80em) /* g */ {
+  /* ================= */
+  /* Style - Generales */
+  /* ================ */
+  /* ----- Style - Header ----- */
+  /* .container-header {
+    background-color: #fff;
+  }*/
+}
