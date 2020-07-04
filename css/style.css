@@ -116,9 +116,9 @@ main {
 
 .item-menu {
   border-radius: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.4rem;
   flex-basis: 5rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -165,7 +165,7 @@ main {
 
 .item-h1 {
   padding: 0.5rem;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 
@@ -173,13 +173,13 @@ main {
   border-left: medium solid var(--cl-lime);
   border-right: medium solid var(--cl-lime);
   border-radius: 0.5rem;
-  padding: 0.5rem;
-  font-size: 1.4rem;
+  padding: 0.4rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
 .item-p-name {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -193,35 +193,30 @@ main {
 }
 
 .box-icon > img {
-  width: 3rem;
+  width: 3.5rem;
 }
 
 .box-me {
   border-left: medium solid var(--cl-lime);
   border-right: medium solid var(--cl-lime);
   border-radius: 0.7rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  height: 17rem;
-  list-style: none;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  height: 15rem;
+  list-style-type: none;
 }
 
-.item-p-me {
-  display: inline-flex;
+.box-me > li {
+  flex-wrap: nowrap;
 }
 
-.item-p-me > img {
-  width: 1.4rem;
+.box-me > li > figure > img,
+.box-me > li > p > img {
+  width: 1.3rem;
 }
 
-.item-p-me > p {
-  margin-left: 0.5rem;
-  font-size: 1.1rem;
-}
-
-.item-p-me > p > img {
-  height: 1.4rem;
-  width: 1.4rem;
+.box-me > li > p {
+  margin-left: 0.2rem;
 }
 
 /* ----- Style - ContainerService ----- */
@@ -239,13 +234,12 @@ main {
 .box-service {
   padding: 3rem;
   min-height: inherit;
-  width: 100%;
   color: var(--cl-txt-white);
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .item-service-img > img {
-  width: 8rem;
+  width: 6rem;
 }
 
 .item-service-link {
@@ -263,21 +257,22 @@ main {
 }
 
 .item-service-list {
-  font-size: 1.2rem;
+  min-height: 13rem;
+  font-size: 1.1rem;
   list-style-type: none;
 }
 
 .item-service-list > li {
-  display: inline-flex;
+  flex-wrap: nowrap;
 }
 
-.item-service-list > li > img {
-  margin-right: 0.5rem;
-  width: 1.4rem;
+.item-service-list > li > figure > img {
+  margin-right: 0.2rem;
+  width: 1.3rem;
 }
 
 .item-service-p > p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-align: center;
 }
 
@@ -287,13 +282,16 @@ main {
 /* ----- Style - ContainerProyect ----- */
 .container-proyect {
   margin-top: 10rem;
+  min-height: 80vh;
   min-width: 100%;
 }
 
 .box-proyect {
-  margin: auto;
-  height: 36rem;
-  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  min-height: inherit;
   background-image: url(../img/fondos/dq_f4.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -301,21 +299,13 @@ main {
   background-position: center top;
 }
 
-.box-proyect > div {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  height: inherit;
-  color: var(--cl-txt-white);
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 .item-proyect {
   border-left: medium solid var(--cl-lime);
   border-right: medium solid var(--cl-lime);
   border-radius: 0.7rem;
   padding: 0.5rem;
-  height: 16rem;
-  width: 13rem;
+  height: 8rem;
+  width: 23rem;
   text-decoration: none;
   color: var(--cl-txt-grey);
   background-color: var(--cl-bg-body);
@@ -327,7 +317,7 @@ main {
 }
 
 .item-proyect > img {
-  width: 8rem;
+  width: 6rem;
 }
 
 .item-proyect > p {
@@ -356,7 +346,7 @@ main {
 
 .item-icon-card > img {
   border-radius: 100%;
-  width: 3rem;
+  width: 2.5rem;
 }
 
 .item-p-card > hr {
@@ -371,19 +361,36 @@ main {
   text-align: center;
 }
 
+.item-p-detail > p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
 /* ======== */
 /* Style - Blogt */
 /* ======== */
 /* ----- Style - Contruction----- */
 .container-construction {
   margin-top: 10rem;
-  height: 90vh;
-  width: 100%;
-  background-image: url(../img/fondos/dq_f5.png);
+
+  min-height: 50vh;
+  min-width: 100%;
+  /* background-image: url(../img/fondos/dq_f5.png);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center top;*/
+}
+
+.box-construction {
+  padding-top: 1rem;
+  min-height: inherit;
+  min-width: inherit;
+}
+
+.box-construction > img {
+  height: 30rem;
+  width: 30rem;
 }
 
 /* ======== */
@@ -427,11 +434,6 @@ main {
   cursor: pointer;
   color: var(--cl-txt-white);
   background-color: var(--cl-lime);
-}
-
-.item-p-detail > p {
-  font-size: 1.5rem;
-  text-align: center;
 }
 
 /* ======== */

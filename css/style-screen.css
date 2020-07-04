@@ -4,9 +4,9 @@
   /* Style - Generales */
   /* ================ */
   /* ----- Style - Header ----- */
-  /*.container-header {
+  .container-header {
     background-color: yellow;
-  }*/
+  }
 }
 
 @media screen and (min-width: 30em) /* size: x */ {
@@ -14,9 +14,9 @@
   /* Style - Generales */
   /* ================ */
   /* ----- Style - Header ----- */
-  /*.container-header {
+  .container-header {
     background-color: blue;
-  }*/
+  }
 }
 
 @media screen and (min-width: 37.5em) /* size: xs */ {
@@ -24,9 +24,69 @@
   /* Style - Generales */
   /* ================ */
   /* ----- Style - Header ----- */
-  /*.container-header {
+  .container-header {
     background-color: red;
-  }*/
+  }
+
+  .box-logo > img {
+    width: 16rem;
+  }
+
+  .box-social > a > img {
+    width: 1.7rem;
+  }
+
+  .item-menu {
+    font-size: 1.1rem;
+  }
+
+  /* ========
+  Style - Index 
+======== */
+  /* ----- Style - ContainerHello ----- */
+  .item-h1 {
+    font-size: 2rem;
+  }
+
+  .item-h2 {
+    font-size: 1.4rem;
+  }
+
+  .item-p-name {
+    font-size: 1.4rem;
+  }
+
+  /* ----- Style - ContainerProfessional ----- */
+  .box-icon > img {
+    width: 3.7rem;
+  }
+
+  .box-me > li > p {
+    font-size: 1.1rem;
+  }
+
+  .box-me > li > figure > img,
+  .box-me > li > p > img {
+    width: 1.5rem;
+  }
+
+  /* ----- Style - ContainerService ----- */
+  .item-service-list {
+    font-size: 1.2rem;
+  }
+
+  .item-service-img > img {
+    width: 8rem;
+  }
+
+  .item-service-p > p {
+    font-size: 1.3rem;
+  }
+
+  /* ----- Style - ContainerComments ----- */
+  .item-p-detail > p {
+    font-size: 1.3rem;
+  }
 }
 
 @media screen and (min-width: 48em) /* size: m */ {
@@ -34,9 +94,9 @@
   /* Style - Generales */
   /* ================ */
   /* ----- Style - Header ----- */
-  /*.container-header {
+  .container-header {
     background-color: lime;
-  }*/
+  }
 
   .box-logo > img {
     width: 16rem;
@@ -95,9 +155,23 @@
   /* ========
   Style - Proyect 
 ======== */
+  /* ----- Style - ContainerProyect ----- */
+  .item-proyect {
+    height: 15rem;
+    width: 13rem;
+  }
+
+  .item-proyect > img {
+    width: 8rem;
+  }
+
   /* ----- Style - ContainerComments ----- */
   .box-card {
     width: 48%;
+  }
+
+  .item-icon-card > img {
+    width: 3rem;
   }
 }
 
@@ -106,16 +180,38 @@
   /* Style - Generales */
   /* ================ */
   /* ----- Style - Header ----- */
-  /*.container-header {
+  .container-header {
     background-color: orange;
-  }*/
+  }
+
+  /* ========
+  Style - Index 
+======== */
+  /* ----- Style - ContainerProfessional ----- */
+  .box-me > li > p {
+    font-size: 1.3rem;
+  }
 
   /* ========
   Style - Proyect 
 ======== */
   /* ----- Style - ContainerProyect ----- */
+  .container-proyect {
+    min-height: 60vh;
+  }
+
   .box-proyect {
-    height: 26rem;
+    min-height: inherit;
+  }
+
+  .item-proyect {
+    height: 17rem;
+    width: 13rem;
+  }
+
+  /* ----- Style - ContainerComments ----- */
+  .box-card {
+    width: 35%;
   }
 }
 
@@ -124,9 +220,9 @@
   /* Style - Generales */
   /* ================ */
   /* ----- Style - Header ----- */
-  /*.container-header {
+  .container-header {
     background-color: green;
-  }*/
+  }
 }
 
 @media screen and (min-width: 80em) /* g */ {
