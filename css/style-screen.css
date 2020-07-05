@@ -4,9 +4,9 @@
   /* Style - Generales */
   /* ================ */
   /* ----- Style - Header ----- */
-  /*.container-header {
+  .container-header {
     background-color: yellow;
-  }*/
+  }
 }
 
 @media screen and (min-width: 30em) /* size: x */ {
@@ -14,9 +14,9 @@
   /* Style - Generales */
   /* ================ */
   /* ----- Style - Header ----- */
-  /*.container-header {
+  .container-header {
     background-color: blue;
-  }*/
+  }
 }
 
 @media screen and (min-width: 37.5em) /* size: xs */ {

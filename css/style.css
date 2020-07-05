@@ -90,7 +90,7 @@ main {
 
 /* ----- Style - Header ----- */
 .container-header {
-  height: 10rem;
+  min-height: 10rem;
   min-width: 100%;
   position: fixed;
   box-shadow: 0 0 1.25rem 0.063rem rgba(0, 0, 0, 0.75);
@@ -186,6 +186,7 @@ main {
 /* ----- Style - ContainerProfessional ----- */
 .container-me {
   padding: 1rem;
+  min-height: auto;
 }
 
 .box-icon {
@@ -193,7 +194,7 @@ main {
 }
 
 .box-icon > img {
-  width: 3.5rem;
+  width: 3rem;
 }
 
 .box-me {
@@ -202,7 +203,7 @@ main {
   border-radius: 0.7rem;
   padding-left: 0.7rem;
   padding-right: 0.7rem;
-  height: 15rem;
+  min-height: 22rem;
   list-style-type: none;
 }
 
@@ -257,8 +258,8 @@ main {
 }
 
 .item-service-list {
-  min-height: 13rem;
-  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  min-height: 18rem;
   list-style-type: none;
 }
 
@@ -282,7 +283,7 @@ main {
 /* ----- Style - ContainerProyect ----- */
 .container-proyect {
   margin-top: 10rem;
-  min-height: 80vh;
+  min-height: 100vh;
   min-width: 100%;
 }
 
@@ -303,9 +304,9 @@ main {
   border-left: medium solid var(--cl-lime);
   border-right: medium solid var(--cl-lime);
   border-radius: 0.7rem;
-  padding: 0.5rem;
-  height: 8rem;
-  width: 23rem;
+  padding: 0.2rem;
+  min-height: 8rem;
+  min-width: 10rem;
   text-decoration: none;
   color: var(--cl-txt-grey);
   background-color: var(--cl-bg-body);
@@ -317,7 +318,7 @@ main {
 }
 
 .item-proyect > img {
-  width: 6rem;
+  width: 5rem;
 }
 
 .item-proyect > p {
@@ -330,7 +331,7 @@ main {
   margin-bottom: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  height: 17rem;
+  min-height: 17rem;
 }
 
 .box-card {
@@ -341,7 +342,7 @@ main {
 
 .item-img-card > img {
   border-radius: 100%;
-  width: 5rem;
+  width: 4rem;
 }
 
 .item-icon-card > img {
@@ -357,7 +358,6 @@ main {
 }
 
 .item-p-card > p {
-  font-size: 1.1rem;
   text-align: center;
 }
 
